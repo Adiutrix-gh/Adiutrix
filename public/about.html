@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en" class="!scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4BYTE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class=" bg-slate-50 font-sans">
+
+
+    <header class="   bg-slate-50 ">
+        <nav class=" flex justify-between items-center md:mx-40 mx-5 font-sans ">
+            <div class=" my-2 font-bold md:text-5xl text-2xl">
+                <img src="img/LOGO black.png" alt="logo" class="w-[80px]">
+            </div>
+            <div class=" nav-links md:static md:min-h-fit absolute md:rounded-none bg-opacity-90  bg-slate-50 
+    min-h-[32vh] right-0 top-[-100%] md:w-auto  w-1/2 flex items-center justify-center rounded-md" >
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-4 px-5 text-sm font-semibold ">
+                    <li>
+                        <a  class="hover:text-gray-600 text-gray-900" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-600  text-gray-900"  href="ourwork.html">Our Work</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-600  text-blue-900"  href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-600  text-gray-900"  href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div> 
+            <div class="flex items-center gap-5">
+                <button class=" bg-slate-900 bg-opacity-60 hover:bg-slate-900 rounded-full md:px-5 md:py-2 md:font-semibold font-medium 
+    text-sm py-1 px-3 text-white "> Search </button>
+                <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-4xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+         
+        </nav>
+    </header>
+
+
+    <div class="  overflow-x-hidden"> <!-- start wrap-->
+       
+        <main class="   bg-purple-00  top-[150px]">
+            <div class=" flex justify-center mx-auto mt-28 mb-2 bg-slate-00 w-[700px] h-[150px]">
+                <h1 class="text-4xl font-bold tracking-wider">
+                    Meet our team of world <i class="text-blue-800 font-extrabold">designers 
+                        programmers</i> , and world-class 
+                        <i class="text-blue-800 font-extrabold">problem solvers</i>
+                </h1>
+            </div>
+
+            <div class=" flex justify-center mx-auto  bg-slate-00 w-[800px] h-[200px]">
+                <h1 class="text-base font-medium">
+                    "Teamwork turns vision into reality, uniting diverse strengths to create something greater than individuals 
+                    could achieve alone. True collaboration amplifies strengths, fosters innovation, and drives lasting success."
+                </h1>
+            </div>
+
+            <div class=" flex justify-end mx-auto mb-6  bg-slate-00 w-[1000px]">
+                <h1 class=" text-[12px] font-bold text-gray-700">
+                    <ul>
+                        <li>
+                            <a href="#">View full team <i class="font-extrabold text-[10px] text-blue-900">></i></a>
+                        </li>
+                    </ul>
+                </h1>
+    
+            </div>
+
+            <div class=" flex flex-cols-4 gap-10 justify-start mx-auto mb-10 bg-slate-00 w-[1000px] h-[300px]">
+                <div class="bg-blue-00 w-[234px] h-[340px] overflow-hidden">
+                    <img src="img/mem1.jpg" alt="member">
+                    <div>
+                        <h4 class="flex mt-5 text-gray-900 font-semibold">
+                            Benjamin Brown
+                        </h4>
+                        <h4 class="flex text-[12px] text-blue-900 font-medium">
+                            Snr.UX Designer
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="bg-blue-00 w-[234px] h-[200px]">
+                    <img src="img/mem2.jpg" alt="member">
+                    <div>
+                        <h4 class="flex mt-5 text-gray-900 font-semibold">
+                            Benjamin Brown
+                        </h4>
+                        <h4 class="flex text-[12px] text-blue-900 font-medium">
+                            Snr.UX Designer
+                        </h4>
+                    </div>
+                </div>
+                
+                <div class="bg-blue-00 w-[234px] h-[279px]">
+                     <img src="img/mem3.jpg" alt="member">
+                     <div>
+                        <h4 class="flex mt-5 text-gray-900 font-semibold">
+                            Benjamin Brown
+                        </h4>
+                        <h4 class="flex text-[12px] text-blue-900 font-medium">
+                            Snr.UX Designer
+                        </h4>
+                    </div>
+                </div>
+                
+                <div class="bg-blue-00 w-[234px] h-[279px]">
+                     <img src="img/mem4.jpg" alt="member">
+                     <div>
+                        <h4 class="flex mt-5 text-gray-900 font-semibold">
+                            Benjamin Brown
+                        </h4>
+                        <h4 class="flex text-[12px] text-blue-900 font-medium">
+                            Snr.UX Designer
+                        </h4>
+                    </div>
+                </div>
+    
+    
+    
+    
+            </div>
+
+            <div class="flex  bg-blue-100 h-[400px] w-[full] mt-40 ">
+
+               <div class="flex justify-center items-center flex-cols-3 gap-10 mx-auto mt-20 w-[1000px] h-[200px] ">
+                <div class=" bg-green-300 w-[320px] h-[130px] rounded-lg">
+                    <p class="text-[20px] font-semibold mt-10 pl-5 text-gray-900">Our Mission</p>
+                    <p class="text-[15px] font-semibold  pl-5">Empowering businesses with user-focused, innovative web solutions.</p>
+                </div>
+
+                <div class="  bg-orange-200 w-[320px] h-[130px] rounded-lg">
+                    <p class="text-[20px] font-semibold mt-10 pl-4 text-gray-900">Our Vision</p>
+                    <p class="text-[15px] font-semibold  pl-4">Leading in digital experiences that inspire and empower businesses.</p>
+                </div>
+
+                <div class="  bg-red-300 w-[320px] h-[130px] rounded-lg">
+                    <p class="text-[20px] font-semibold mt-10 pl-5 text-gray-900">Our Values</p>
+                    <p class="text-[15px] font-semibold  pl-5">Innovation, quality, and user-focused solutions for client success.</p>
+                </div>
+
+               </div>
+            </div>
+
+            <div class="bg-blue-100 ">
+
+
+                <h2 class="flex justify-center text-4xl text-gray-900 font-semibold mb-40">Frequently Asked Questions</h2>
+            
+                <div class="w-[800px]  mx-auto ">
+                    <!-- Accordion -->
+                    <div class=" space-y-4 ">
+                      <!-- Item 1 -->
+                      <div class=" border rounded-lg w[800px]">
+                        <button class="w-full flex justify-between items-center p-4 text-left text-gray-700 bg-blue-200 bg-opacity-20 border-2 border-stone-500 hover:bg-blue-300 hover:bg-opacity-30 rounded-lg focus:outline-none" onclick="toggleAccordion('item1')">
+                          <span>What is TailwindCSS?</span>
+
+                          <div class="rounded-full border-2 border-stone-500">
+                            <svg class="w-5 h-5 transition-transform transform" id="icon-item1" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                              </svg>
+                          </div>
+                          
+                        </button>
+                        <div class=" p-4 text-gray-600  border-  border-gray-400 bg-blue-100  rounded-t-none rounded-lg drop-shadow"  id="content-item1">
+                          TailwindCSS is a utility-first CSS framework for creating custom designs directly in your HTML.
+                        </div>
+                      </div>
+                
+                     <!-- Item 2 -->
+                     <div class=" border rounded-lg">
+                        <button class="w-full flex justify-between items-center p-4 text-left text-gray-700 bg-blue-200 bg-opacity-20 border-2 border-stone-500 hover:bg-blue-300 hover:bg-opacity-30 rounded-lg focus:outline-none" onclick="toggleAccordion('item2')">
+                          <span>What is TailwindCSS?</span>
+
+                          <div class="rounded-full border-2 border-stone-500">
+                            <svg class="w-5 h-5 transition-transform transform" id="icon-item2" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                              </svg>
+                          </div>
+                          
+                        </button>
+                        <div class=" p-4 text-gray-600  border- border-gray-400 bg-blue-100  rounded-t-none rounded-lg drop-shadow"  id="content-item2">
+                          TailwindCSS is a utility-first CSS framework for creating custom designs directly in your HTML.
+                        </div>
+                      </div>
+
+
+
+                     <!-- Item 3 -->
+                     <div class=" border rounded-lg">
+                        <button class="w-full flex justify-between items-center p-4 text-left text-gray-700 bg-blue-200 bg-opacity-20 border-2 border-stone-500 hover:bg-blue-300 hover:bg-opacity-30 rounded-lg focus:outline-none" onclick="toggleAccordion('item3')">
+                          <span>What is TailwindCSS?</span>
+
+                          <div class="rounded-full border-2 border-stone-500">
+                            <svg class="w-5 h-5 transition-transform transform" id="icon-item3" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                              </svg>
+                          </div>
+                          
+                        </button>
+                        <div class=" p-4 text-gray-600  border-  border-gray-400 bg-blue-100  rounded-t-none rounded-lg drop-shadow"  id="content-item3">
+                          TailwindCSS is a utility-first CSS framework for creating custom designs directly in your HTML.
+                        </div>
+                      </div>
+
+                      <!-- Item 4 -->
+                      <div class=" border rounded-lg ">
+                        <button class="w-full flex justify-between items-center p-4 text-left text-gray-700 bg-blue-200 bg-opacity-20 border-2 border-stone-500 hover:bg-blue-300 hover:bg-opacity-30 rounded-lg focus:outline-none" onclick="toggleAccordion('item4')">
+                          <span>What is TailwindCSS?</span>
+
+                          <div class="rounded-full border-2 border-stone-500">
+                            <svg class="w-5 h-5 transition-transform transform" id="icon-item4" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                              </svg>
+                          </div>
+                          
+                        </button>
+                        <div class=" p-4 text-gray-600  border-  border-gray-400 bg-blue-100  rounded-t-none rounded-lg drop-shadow"  id="content-item4">
+                          TailwindCSS is a utility-first CSS framework for creating custom designs directly in your HTML.
+                        </div>
+                      </div>
+                      <div class="bg-blue-100 h-[50px]">
+                        <p class="text-transparent">We’ve worked with</p>
+                      </div>
+
+                    </div>
+                  </div>
+
+            </div>
+
+           
+            <div class="bg-slate-0 h-[100px] flex justify-center text-4xl text-gray-900 font-semibold mt-20 mb-2">
+                We’ve worked with
+            </div>
+            <div class="flex bg-slate-100 w-[fill] h-[150px]  justify-center items-center ">
+                <div class="flex flex-cols-4 gap-10 bg-slate-00 w-[900px] h-[100px] justify-center items-center ">
+                    <div class="flex justify-center items-center"><img src="img/UBA.png" alt="uba logo" class="w-[150px] opacity-80 ">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img src="img/gcb1.png" alt="uba logo" class="w-[80px] opacity-80 ">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img src="img/EXNESS.png" alt="uba logo" class="w-[250px] opacity-80 ">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img src="img/freepik.png" alt="uba logo" class="w-[200px] opacity-80">
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+             </div>
+
+
+             <div class="flex justify-center items-center bg-slate-50 h-[200px]  mt-40">
+                <div class=" bg-slate-00 w-[450px]">
+                    
+                    <h3 class="flex justify-center text-3xl font-bold">Join Our Mail List</h3>
+                    <h1 class="flex justify-center font-medium mt-2">Enjoy  updates, tips and discounted  offers</h1>
+                    
+                    <div class=" flex justify-center mx-auto bg-white w-[400px] h-[50px] rounded items-center border-2 border-gray-200 mt-7 mb-36 ">
+                        <input type="email" name="email" id="" placeholder=" &nbsp Enter your mail" class=" bg-slate-50 h-[40px] w-[300px] font-semibold  m-1">
+                        <button type="submit" value="Join" class="bg-black hover:bg-opacity-80 transition ease-in-out delay-300 text-white font-medium w-[100px] h-[40px] m-1 rounded">Join</button>
+                    </div>
+                    
+             </div>
+            </div>
+
+           
+        
+
+       
+
+        
+
+     
+
+
+        
+
+        </main>
+
+        <footer>
+            <div class=" flex bg-black p-10 justify-center">
+                <div class="text-white font-sans">
+                    <div class="grid md:grid-cols-4 gap-5 ">
+                        <div class="mb-5 ml-10 ">
+                            <img src="img/LOGO white.png" alt="logo" class="w-[150px]">
+                           
+                            <ul>
+                               <li  class="pb-2">
+                                  
+                               </li>
+                               <li class="pb-2 ">
+                                   <a href="about.html"  class=" hover:text-slate-500">East Legon hugh ave</a>
+                               </li>
+                               <li class="pb-2 hover:text-slate-500">
+                                   <a href="contact"> info@4bytegh.com</a>
+                               </li>
+                               <li class="pb-2">
+                                   <a href="img/tnm.pdf" download  class=" hover:text-slate-500"> +233 55 206 3000</a>
+                               </li>
+                            </ul>
+                       </div>
+                       <div class="mb-5 mr-20 ml-10 mt-28 ">
+                        <h4 class="pb-4 font-bold"> Navigation Links</h4>
+                   
+                        <ul>
+                           <li  class="pb-2">
+                               <a href="#"  class=" hover:text-slate-500"> Home </a>
+                           </li>
+                           <li class="pb-2 ">
+                               <a href="#"  class=" hover:text-slate-500">Our Work</a>
+                           </li>
+                           <li class="pb-2 hover:text-slate-500">
+                               <a href="#"> About</a>
+                           </li>
+                           <li class="pb-2">
+                               <a href="#"  class=" hover:text-slate-500"> Contact</a>
+                           </li>
+                        </ul>
+                   </div>
+
+                   <div class="mb-5 ml-10 mt-28">
+                    <h4 class="pb-4 font-bold"> Services</h4>
+                   
+                    <ul>
+                       <li  class="pb-2">
+                           <a href="https://html.com/html5/"  class=" hover:text-slate-500">Visual Design</a>
+                       </li>
+                       <li class="pb-2 ">
+                           <a href="https://css3.com/"  class=" hover:text-slate-500"> Digital Marketing</a>
+                       </li>
+                       <li class="pb-2 hover:text-slate-500">
+                           <a href="https://tailwindcss.com/">Cinematography</a>
+                       </li>
+                       <li class="pb-2">
+                           <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"  class=" 
+       hover:text-slate-500">Web Development</a>
+                       </li>
+                    </ul>
+               </div>
+
+
+               <div class="mb-5 ml-10 mt-28">
+                <h4 class="pb-4 font-bold"> Useful Links</h4>
+               
+                <ul>
+                   <li  class="pb-2">
+                       <a href="https://html.com/html5/"  class=" hover:text-slate-500"> Blogs</a>
+                   </li>
+                   <li class="pb-2 ">
+                       <a href="https://css3.com/"  class=" hover:text-slate-500"> Policy</a>
+                   </li>
+                   <li class="pb-2 hover:text-slate-500">
+                       <a href="https://tailwindcss.com/">Terms and 
+                        Conditions
+                       </a>
+                   </li>
+                  
+                </ul>
+           </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <div class=" flex justify-center bg-slate-950 text-xs text-slate-50 font-medium">
+            <h4> 4BYTE &nbsp; All rights reserved &nbsp; Copyright 2024</h4>
+        </div>
+
+       
+    </div> <!-- end wap-->
+
+    <script>
+        function toggleAccordion(id) {
+          const content = document.getElementById(`content-${id}`);
+          const icon = document.getElementById(`icon-${id}`);
+          
+          // Toggle visibility
+          content.classList.toggle('hidden');
+          
+          // Rotate the icon
+          icon.classList.toggle('rotate-180');
+        }
+      </script>
+
+    <script>
+        const navLinks = document.querySelector('.nav-links');
+        function onToggleMenu(e) {
+            e.name = e.name === 'close' ? 'menu' : 'close';
+            navLinks.classList.toggle('top-[7%]');
+        }
+    </script>
+
+    
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
