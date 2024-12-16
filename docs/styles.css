@@ -719,6 +719,10 @@ video {
   margin-top: 9rem;
 }
 
+.ml-0{
+  margin-left: 0px;
+}
+
 .flex{
   display: flex;
 }
