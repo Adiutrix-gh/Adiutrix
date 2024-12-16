@@ -699,10 +699,6 @@ video {
   margin-top: 5rem;
 }
 
-.mt-28{
-  margin-top: 7rem;
-}
-
 .mt-40{
   margin-top: 10rem;
 }
@@ -717,6 +713,10 @@ video {
 
 .mt-8{
   margin-top: 2rem;
+}
+
+.mt-36{
+  margin-top: 9rem;
 }
 
 .flex{
@@ -823,6 +823,46 @@ video {
   height: 940px;
 }
 
+.h-\[1000px\]{
+  height: 1000px;
+}
+
+.h-\[2000px\]{
+  height: 2000px;
+}
+
+.h-\[2050px\]{
+  height: 2050px;
+}
+
+.h-\[2150px\]{
+  height: 2150px;
+}
+
+.h-\[2200px\]{
+  height: 2200px;
+}
+
+.h-\[2300px\]{
+  height: 2300px;
+}
+
+.h-\[2400px\]{
+  height: 2400px;
+}
+
+.h-\[2420px\]{
+  height: 2420px;
+}
+
+.h-\[2500px\]{
+  height: 2500px;
+}
+
+.h-\[2600px\]{
+  height: 2600px;
+}
+
 .min-h-\[32vh\]{
   min-height: 32vh;
 }
@@ -917,10 +957,6 @@ video {
 
 .w-\[700px\]{
   width: 700px;
-}
-
-.w-\[800px\]{
-  width: 800px;
 }
 
 .w-\[80px\]{
@@ -1180,6 +1216,11 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-gray-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-20{
@@ -1496,8 +1537,20 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:visible{
+    visibility: visible;
+  }
+
   .md\:static{
     position: static;
+  }
+
+  .md\:absolute{
+    position: absolute;
+  }
+
+  .md\:relative{
+    position: relative;
   }
 
   .md\:mx-40{
@@ -1513,6 +1566,10 @@ video {
     margin-bottom: 0.5rem;
   }
 
+  .md\:mb-20{
+    margin-bottom: 5rem;
+  }
+
   .md\:mb-36{
     margin-bottom: 9rem;
   }
@@ -1521,8 +1578,16 @@ video {
     margin-bottom: 10rem;
   }
 
+  .md\:mb-5{
+    margin-bottom: 1.25rem;
+  }
+
   .md\:mt-0{
     margin-top: 0px;
+  }
+
+  .md\:mt-10{
+    margin-top: 2.5rem;
   }
 
   .md\:mt-2{
@@ -1537,8 +1602,16 @@ video {
     margin-top: 10rem;
   }
 
-  .md\:mt-10{
-    margin-top: 2.5rem;
+  .md\:ml-5{
+    margin-left: 1.25rem;
+  }
+
+  .md\:ml-40{
+    margin-left: 10rem;
+  }
+
+  .md\:flex{
+    display: flex;
   }
 
   .md\:grid{
@@ -1581,6 +1654,14 @@ video {
     height: 600px;
   }
 
+  .md\:h-\[850px\]{
+    height: 850px;
+  }
+
+  .md\:h-52{
+    height: 13rem;
+  }
+
   .md\:min-h-fit{
     min-height: -moz-fit-content;
     min-height: fit-content;
@@ -1616,6 +1697,10 @@ video {
 
   .md\:w-auto{
     width: auto;
+  }
+
+  .md\:w-full{
+    width: 100%;
   }
 
   .md\:grid-cols-1{
