@@ -1630,6 +1630,10 @@ video {
     margin-left: 2.5rem;
   }
 
+  .md\:mt-5{
+    margin-top: 1.25rem;
+  }
+
   .md\:flex{
     display: flex;
   }
