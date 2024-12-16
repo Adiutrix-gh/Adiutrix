@@ -1250,6 +1250,14 @@ video {
   padding-left: 1.25rem;
 }
 
+.pr-5{
+  padding-right: 1.25rem;
+}
+
+.pr-2{
+  padding-right: 0.5rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1663,6 +1671,10 @@ video {
     gap: 2vw;
   }
 
+  .md\:gap-10{
+    gap: 2.5rem;
+  }
+
   .md\:rounded-none{
     border-radius: 0px;
   }
@@ -1690,6 +1702,14 @@ video {
   .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-\[20px\]{
+    font-size: 20px;
+  }
+
+  .md\:text-\[15px\]{
+    font-size: 15px;
   }
 
   .md\:font-semibold{
