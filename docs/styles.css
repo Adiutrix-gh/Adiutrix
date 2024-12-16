@@ -1634,6 +1634,10 @@ video {
     margin-top: 1.25rem;
   }
 
+  .md\:mt-7{
+    margin-top: 1.75rem;
+  }
+
   .md\:flex{
     display: flex;
   }
