@@ -631,16 +631,20 @@ video {
   margin-bottom: 5rem;
 }
 
+.mb-24{
+  margin-bottom: 6rem;
+}
+
 .mb-28{
   margin-bottom: 7rem;
 }
 
-.mb-36{
-  margin-bottom: 9rem;
+.mb-32{
+  margin-bottom: 8rem;
 }
 
-.mb-40{
-  margin-bottom: 10rem;
+.mb-36{
+  margin-bottom: 9rem;
 }
 
 .mb-5{
@@ -679,6 +683,10 @@ video {
   margin-right: 5rem;
 }
 
+.mt-0{
+  margin-top: 0px;
+}
+
 .mt-10{
   margin-top: 2.5rem;
 }
@@ -709,18 +717,6 @@ video {
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mb-32{
-  margin-bottom: 8rem;
-}
-
-.mt-0{
-  margin-top: 0px;
-}
-
-.mb-24{
-  margin-bottom: 6rem;
 }
 
 .flex{
@@ -775,6 +771,10 @@ video {
   height: 300px;
 }
 
+.h-\[30px\]{
+  height: 30px;
+}
+
 .h-\[340px\]{
   height: 340px;
 }
@@ -803,8 +803,16 @@ video {
   height: 600px;
 }
 
+.h-\[650px\]{
+  height: 650px;
+}
+
 .h-\[70px\]{
   height: 70px;
+}
+
+.h-\[80px\]{
+  height: 80px;
 }
 
 .h-\[850px\]{
@@ -813,26 +821,6 @@ video {
 
 .h-\[940px\]{
   height: 940px;
-}
-
-.h-\[500px\]{
-  height: 500px;
-}
-
-.h-\[700px\]{
-  height: 700px;
-}
-
-.h-\[650px\]{
-  height: 650px;
-}
-
-.h-\[80px\]{
-  height: 80px;
-}
-
-.h-\[30px\]{
-  height: 30px;
 }
 
 .min-h-\[32vh\]{
@@ -1250,14 +1238,6 @@ video {
   padding-left: 1.25rem;
 }
 
-.pr-5{
-  padding-right: 1.25rem;
-}
-
-.pr-2{
-  padding-right: 0.5rem;
-}
-
 .text-left{
   text-align: left;
 }
@@ -1315,19 +1295,14 @@ video {
   line-height: 1.25rem;
 }
 
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold{
@@ -1534,32 +1509,32 @@ video {
     margin-bottom: 0px;
   }
 
-  .md\:mt-0{
-    margin-top: 0px;
+  .md\:mb-2{
+    margin-bottom: 0.5rem;
   }
 
-  .md\:mt-28{
-    margin-top: 7rem;
+  .md\:mb-36{
+    margin-bottom: 9rem;
   }
 
   .md\:mb-40{
     margin-bottom: 10rem;
   }
 
-  .md\:mb-2{
-    margin-bottom: 0.5rem;
-  }
-
-  .md\:mt-40{
-    margin-top: 10rem;
+  .md\:mt-0{
+    margin-top: 0px;
   }
 
   .md\:mt-2{
     margin-top: 0.5rem;
   }
 
-  .md\:mb-36{
-    margin-bottom: 9rem;
+  .md\:mt-28{
+    margin-top: 7rem;
+  }
+
+  .md\:mt-40{
+    margin-top: 10rem;
   }
 
   .md\:grid{
@@ -1568,6 +1543,10 @@ video {
 
   .md\:hidden{
     display: none;
+  }
+
+  .md\:h-\[100px\]{
+    height: 100px;
   }
 
   .md\:h-\[150px\]{
@@ -1582,24 +1561,20 @@ video {
     height: 300px;
   }
 
-  .md\:h-\[600px\]{
-    height: 600px;
-  }
-
   .md\:h-\[400px\]{
     height: 400px;
   }
 
-  .md\:h-\[100px\]{
-    height: 100px;
+  .md\:h-\[40px\]{
+    height: 40px;
   }
 
   .md\:h-\[50px\]{
     height: 50px;
   }
 
-  .md\:h-\[40px\]{
-    height: 40px;
+  .md\:h-\[600px\]{
+    height: 600px;
   }
 
   .md\:min-h-fit{
@@ -1609,6 +1584,18 @@ video {
 
   .md\:w-\[1000px\]{
     width: 1000px;
+  }
+
+  .md\:w-\[100px\]{
+    width: 100px;
+  }
+
+  .md\:w-\[300px\]{
+    width: 300px;
+  }
+
+  .md\:w-\[400px\]{
+    width: 400px;
   }
 
   .md\:w-\[500px\]{
@@ -1625,18 +1612,6 @@ video {
 
   .md\:w-auto{
     width: auto;
-  }
-
-  .md\:w-\[400px\]{
-    width: 400px;
-  }
-
-  .md\:w-\[300px\]{
-    width: 300px;
-  }
-
-  .md\:w-\[100px\]{
-    width: 100px;
   }
 
   .md\:grid-cols-1{
@@ -1667,12 +1642,12 @@ video {
     justify-content: flex-start;
   }
 
-  .md\:gap-\[2vw\]{
-    gap: 2vw;
-  }
-
   .md\:gap-10{
     gap: 2.5rem;
+  }
+
+  .md\:gap-\[2vw\]{
+    gap: 2vw;
   }
 
   .md\:rounded-none{
@@ -1689,9 +1664,9 @@ video {
     padding-bottom: 0.5rem;
   }
 
-  .md\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .md\:text-4xl{
@@ -1699,17 +1674,17 @@ video {
     line-height: 2.5rem;
   }
 
-  .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .md\:text-\[20px\]{
-    font-size: 20px;
+  .md\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:text-\[15px\]{
     font-size: 15px;
+  }
+
+  .md\:text-\[20px\]{
+    font-size: 20px;
   }
 
   .md\:font-semibold{
