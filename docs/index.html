@@ -6,291 +6,386 @@
     <title>4BYTE</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<body>
+<div class="bg-white">
+  <header class="absolute inset-x-0 top-0 z-50">
+    <nav x-data="{ isOpen: false }" class="bg-slate-50 bg-opacity-30 shadow-sm dark:bg-gray-00">
+        <div class="container px-6 py-4 mx-auto">
+            <div class="lg:flex lg:items-center">
+                <div class="flex items-center justify-between">
+                    <a href="#">
+                        <img class="w-auto h-6 sm:h-7" src="img/auditrix.svg" alt="">
+                    </a>
 
-<body class=" bg-slate-50 font-sans">
-
-
-    <header class="   bg-slate-50 ">
-        <nav class=" flex justify-between items-center md:mx-40 mx-5 font-sans ">
-            <div class=" my-2 font-bold md:text-5xl text-2xl">
-                <img src="img/LOGO black.png" alt="logo" class="w-[80px]">
-            </div>
-            <div class=" nav-links md:static md:min-h-fit absolute md:rounded-none bg-opacity-90  bg-slate-50 
-    min-h-[32vh] right-0 top-[-100%] md:w-auto  w-1/2 flex items-center justify-center rounded-md" >
-                <ul class="flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-4 px-5 text-sm font-semibold ">
-                    <li>
-                        <a  class="hover:text-gray-600 text-blue-900" href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a class="hover:text-gray-600  text-gray-900"  href="ourwork.html">Our Work</a>
-                    </li>
-                    <li>
-                        <a class="hover:text-gray-600  text-gray-900"  href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a class="hover:text-gray-600  text-gray-900"  href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div> 
-            <div class="flex items-center gap-5">
-                <button class=" bg-slate-900 bg-opacity-60 hover:bg-slate-900 rounded-full md:px-5 md:py-2 md:font-semibold font-medium 
-    text-sm py-1 px-3 text-white "> Search </button>
-                <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-4xl cursor-pointer md:hidden"></ion-icon>
-            </div>
-         
-        </nav>
-    </header>
-
-
-    <div class="  overflow-x-hidden"> <!-- start wrap-->
-       
-        
-        <main class=" lg:mx-[full]  bg-purple-00  top-[150px]">
-
-        <div class=" grid md:grid-cols-2 gap-5 mx-auto mt-5 justify-center items-center md:w-[1000px] bg-slate-00 ">
-            <div class=" bg-gray-300 bg-opacity-90 md:w-[400px] md:h-[350px] w-[350px] h-[300px] grid md-grid-cols-1 mt-5 justify-center border-2 border-white outline-gray-50 rounded-[20px]"> 
-                <div class=" bg-slate-200 md:w-[320px] md:h-[150px] w-[300px] h-[130px] md:mt-10 mt-5 mx-auto rounded-lg overflow-hidden"> 
-                    <iframe class="md:w-[320px] md:h-[150px]" src="https://www.youtube.com/embed/LC9uZLOX5ak?si=opQ_3q_eVMW_Cgf1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class=" bg-slate-00  text-white font-medium text-base md:w-[320px] md:h-[50px] w-[320px]   rounded-lg"> We make and revamp products 
-to fit your business goals.</div>
-                <div > <button class=" bg-slate-0 border-2 border-white text-white w-[100px] h-[40px] rounded-full"> <a href=""></a>Explore</button></div>
-                
-
-            </div>
-            <div class=" bg-gray-00 md:w-[500px]  md:h-[450px] w-[350px] h-[300px] md:mt-0 mt-5  overflow-hidden rounded-xl">
-                <img src="img/Ecobank-activate-app.jpg" alt="ecoBank" class=" object-cover md:rounded-[40px] rounded-[20px]">
-            </div>
-        </div>
-
-        <div class="flex bg-slate-50 w-[fill] md:h-[150px] md:mt-20 justify-center items-center ">
-            <div class="flex flex-cols-4 gap-10 bg-slate-00 w-[900px] h-[100px] justify-center items-center ">
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <div class="flex justify-center items-center"><img src="img/UBA.png" alt="uba logo" class="w-[150px] opacity-80 ">
-                </div>
-                <div class="flex justify-center items-center">
-                    <img src="img/gcb1.png" alt="uba logo" class="w-[80px] opacity-80 ">
-                </div>
-                <div class="flex justify-center items-center">
-                    <img src="img/EXNESS.png" alt="uba logo" class="w-[250px] opacity-80 ">
-                </div>
-                <div class="flex justify-center items-center">
-                    <img src="img/freepik.png" alt="uba logo" class="w-[200px] opacity-80">
-                </div>
-                
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                
-            </div>
-            
-             </div>
-
-        <div class=" flex justify-center items-center relative"> 
-            <img src="img/bann.png" alt="imageText">
-           <div class="grid md:grid-cols-1 mx-auto md:bottom-[150px]  bg-slate-000 md:w-[610px] md:h-[270px] w-[290px] h-[120px]  overflow-hidden text-white absolute">
-                <h2 class=" md:text-[30px] text-[20px] font-medium mb-2">Simplifying Complex Narratives Yet,
-                    Providing Depth.</h2>
-                    <h3 class=" text-base font-medium  bg-red-00 md:h-[100px] h-[00px] overflow-hidden ">
-                        You see, we’re an inquisitive bunch, focused on understanding the world around us, and how people connect with it. It’s this curiosity that helps us see what’s next, letting our clients be the first to take advantage of the new opportunities that are emerging all around them quickly.
-                    </h3>
-                    <div > <button class="  md:mt-7 mt-0 bg-slate-00 border-2 border-white text-white hover:bg-white hover:text-slate-900 hover:font-bold transition w-[100px] h-[40px]  md:text-base text-sm rounded-full"> <a 
-                        href=""></a>Explore</button></div>
-                                            
-            </div>
-            
-        </div>
-
-        <div class="grid justify-center bg-slate-50 h-[600px]">
-           <h2 class="flex justify-center  md:mt-40 mt-20 md:mb-20 mb-0 md:text-[30px] text-[20px] font-medium"> What We Do</h2>
-
-           <div class=" grid md:grid-cols-4 grid-cols-2  md:gap-10  md:h-[400px] h-[450px] md:w-[1000px] w-[350px] mx-auto bg-slate-00" >
-
-            <div class=" grid bg-gray-100 border-2 border-gray-200 md:m-5  m-0 md:h-[300px] md:w-[190px] h-[230px] md:rounded-xl rounded-xl rounded-r-none rounded-b-none shadow-sm justify-center">
-                <div class=" mx-auto md:mt-8 mt-5 justify-center">
-                    <img src="img/motion.png" alt="motion-graphics" class="md:w-[100px] w-[70px]">
-                </div>
-                <div class=" font-semibold md:text-[18px] text-[15px]">Visual Designs</div>
-                <div>
-                    <ul class="font-medium text-gray-900 md:text-[15px] text-[12px]">
-                        <li>Branding</li>
-                        <li>Still Graphics</li>
-                        <li>Motion Graphics</li>
-                    </ul>
+                    <!-- Mobile menu button -->
+                    <div class="flex lg:hidden">
+                        <button id="menu-toggle" type="button" class="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400" aria-label="toggle menu">
+                            <svg id="menu-icon-open" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+                            </svg>
+                            <svg id="menu-icon-close" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
 
-            </div>
+                <div id="menu" class="absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-00 lg:mt-0 mt-4 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-end opacity-0 -translate-x-full">
+                    <div class="flex flex-col text-gray-600 capitalize dark:text-gray-600 lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
+                        <a href="#" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-800">Home</a>
+                        <a href="#" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-800">About</a>
+                        <a href="#" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-800">Services</a>
+                        <a href="#" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-800">Contact</a>
+                        <a href="#" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-800">Blog</a>
 
-            <div class="  grid bg-gray-100 border-2 border-gray-200 md:m-5  m-0 md:h-[300px] md:w-[190px] h-[230px] md:rounded-xl rounded-xl rounded-l-none rounded-b-none shadow-sm justify-center">
-                 <div class="mx-auto md:mt-8 mt-5 justify-center">
-                     <img src="img/strategy.png" alt="motion-graphics" class="md:w-[100px] w-[70px]">
-                 </div>
-                 <div class=" font-semibold md:text-[18px] text-[15px]">Cinematography</div>
-                 <div>
-                     <ul class=" font-medium text-gray-900 md:text-[15px] text-[12px]">
-                         <li>Photography</li>
-                         <li>Live Streaming</li>
-                         <li>Video Production</li>
-                     </ul>
-                 </div>
-             </div>
+                        <!--<div class="relative mt-4 lg:mt-0 lg:mx-4 shadow-sm">
+                            <span class="absolute inset-y-0 left-0 flex items-center pl-3">
+                                <svg class="w-4 h-4 text-gray-600 dark:text-gray-300" viewBox="0 0 24 24" fill="none">
+                                    <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                            <input type="text" class="w-full py-1 pl-10 pr-4 text-gray-700 placeholder-gray-600 bg-white border-b rounded bg-opacity-30 dark:placeholder-gray-300 dark:focus:border-gray-300 lg:w-56 lg:border-transparent dark:bg-gray-00 dark:text-gray-300 focus:outline-none focus:border-gray-600" placeholder="Search">
+                        </div>
+                    </div> -->
 
-
-             <div class=" grid bg-gray-100 border-2 border-gray-200 md:m-5  m-0 md:h-[300px] md:w-[190px] h-[230px] md:rounded-xl rounded-xl rounded-r-none rounded-t-none shadow-sm justify-center">
-                  <div class="mx-auto md:mt-8 mt-5 justify-center">
-                      <img src="img/coding.png" alt="motion-graphics" class="md:w-[100px] w-[70px]">
-                  </div>
-                  <div class=" font-semibold md:text-[18px] text-[15px]">Web Development</div>
-                  <div>
-                      <ul class=" font-medium text-gray-900 md:text-[15px] text-[12px]">
-                          <li>Websites</li>
-                          <li>Web Designs</li>
-                          <li>Web Application</li>
-                      </ul>
-                  </div>
-              </div>
-
-
-              <div class="  grid bg-gray-100 border-2 border-gray-200 md:m-5  m-0 md:h-[300px] md:w-[190px] h-[230px] md:rounded-xl rounded-xl rounded-l-none rounded-t-none shadow-sm justify-center">
-                   <div class=" mx-auto md:mt-8 mt-5 justify-center">
-                       <img src="img/worldwide.png" alt="motion-graphics" class="md:w-[100px] w-[70px]">
-                   </div>
-                   <div class=" font-semibold md:text-[18px] text-[15px]">Digital Marketing</div>
-                   <div>
-                       <ul class="font-medium text-gray-900 md:text-[15px] text-[12px]">
-                           <li>S.E.O</li>
-                           <li>Email Marketing</li>
-                           <li>Social Media Mgt.</li>
-                       </ul>
-                   </div>
-               </div>
-
-           </div>
-        </div>
-
-        <div class="md:bg-black md:h-[200px] h-[70px] md:mt-36 mt-0   bg-transparent text-transparent">
-            ee
-        </div>
-
-        <div class="flex justify-center items-center bg-slate-50 h-[200px]  md:mt-20">
-            <div class=" bg-slate-00 w-[450px]">
-                    
-                <h3 class="flex justify-center md:text-3xl text-xl font-bold">Join Our Mail List</h3>
-                <h1 class="flex justify-center font-medium text-base md:mt-2 mt-0">Enjoy  updates, tips and discounted  offers</h1>
-                
-                <div class=" flex justify-center mx-auto bg-white md:w-[400px] md:h-[50px] w-[300px] h-[40px] rounded items-center border-2 border-gray-200 mt-7 md:mb-36 mb-24 ">
-                    <input type="email" name="email" id="" placeholder=" &nbsp Enter your mail" class=" bg-slate-50 md:h-[40px] md:w-[300px]  h-[30px] w-[500px] font-semibold  m-1">
-                    <button type="submit" value="Join" class="bg-black hover:bg-opacity-80 transition ease-in-out delay-300 text-white font-medium md:w-[100px] md:h-[40px] w-[900px] h-[30px] m-1 rounded">Join</button>
-                </div>
-        </div>
-
-        </main>
-
-        <footer>
-            <div class=" flex bg-black p-10 justify-center">
-                <div class="text-white font-sans">
-                    <div class="grid md:grid-cols-4 gap-5 ">
-                        <div class="mb-5 ml-10 ">
-                            <img src="img/LOGO white.png" alt="logo" class="w-[150px]">
-                           
-                            <ul>
-                               <li  class="pb-2">
-                                  
-                               </li>
-                               <li class="pb-2 ">
-                                   <a href="about.html"  class=" hover:text-slate-500">East Legon hugh ave</a>
-                               </li>
-                               <li class="pb-2 hover:text-slate-500">
-                                   <a href="contact"> info@4bytegh.com</a>
-                               </li>
-                               <li class="pb-2">
-                                   <a href="img/tnm.pdf" download  class=" hover:text-slate-500"> +233 55 206 3000</a>
-                               </li>
-                            </ul>
-                       </div>
-                       <div class="mb-5 mr-20 ml-10 md:mt-28 mt-2 ">
-                        <h4 class="pb-4 font-bold"> Navigation Links</h4>
-                   
-                        <ul>
-                           <li  class="pb-2">
-                               <a href="#"  class=" hover:text-slate-500"> Home </a>
-                           </li>
-                           <li class="pb-2 ">
-                               <a href="#"  class=" hover:text-slate-500">Our Work</a>
-                           </li>
-                           <li class="pb-2 hover:text-slate-500">
-                               <a href="#"> About</a>
-                           </li>
-                           <li class="pb-2">
-                               <a href="#"  class=" hover:text-slate-500"> Contact</a>
-                           </li>
-                        </ul>
-                   </div>
-
-                   <div class="mb-5 ml-10 md:mt-28 mt-2">
-                    <h4 class="pb-4 font-bold"> Services</h4>
-                   
-                    <ul>
-                       <li  class="pb-2">
-                           <a href="https://html.com/html5/"  class=" hover:text-slate-500">Visual Design</a>
-                       </li>
-                       <li class="pb-2 ">
-                           <a href="https://css3.com/"  class=" hover:text-slate-500"> Digital Marketing</a>
-                       </li>
-                       <li class="pb-2 hover:text-slate-500">
-                           <a href="https://tailwindcss.com/">Cinematography</a>
-                       </li>
-                       <li class="pb-2">
-                           <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"  class=" 
-       hover:text-slate-500">Web Development</a>
-                       </li>
-                    </ul>
-               </div>
-
-
-               <div class="mb-5 ml-10 md:mt-28 mt-2">
-                <h4 class="pb-4 font-bold"> Useful Links</h4>
-               
-                <ul>
-                   <li  class="pb-2">
-                       <a href="https://html.com/html5/"  class=" hover:text-slate-500"> Blogs</a>
-                   </li>
-                   <li class="pb-2 ">
-                       <a href="https://css3.com/"  class=" hover:text-slate-500"> Policy</a>
-                   </li>
-                   <li class="pb-2 hover:text-slate-500">
-                       <a href="https://tailwindcss.com/">Terms and 
-                        Conditions
-                       </a>
-                   </li>
-                  
-                </ul>
-           </div>
-
+                    <div class="flex justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2">
+                        <a href="#" class="mx-2 text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit">
+                            <!-- Reddit SVG -->
+                        </a>
+                        <a href="#" class="mx-2 text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Facebook">
+                            <!-- Facebook SVG -->
+                        </a>
+                        <a href="#" class="mx-2 text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Github">
+                            <!-- Github SVG -->
+                        </a>
                     </div>
                 </div>
             </div>
-        </footer>
-        
-        <div class=" flex justify-center bg-slate-950 text-xs text-slate-50 font-medium">
-            <h4> 4BYTE &nbsp; All rights reserved &nbsp; Copyright 2024</h4>
         </div>
+    </nav>
+  </header>
 
-    </div> <!-- end wap-->
+  <main class=" lg:mx-[full]  "> 
+   
+    <div class="relative isolate px-6 pt-6 lg:px-8">
+      <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+        <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.
+  
+  
+  5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+      </div>
+      <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+          <div class="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+            S.E.O strategies for e-commerce. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </div>
+        <div class="text-center">
+          <h1 class="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Showcase your business to the world</h1>
+          <p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Transforming ideas into stunning, responsive, and high-performing websites that captivate your audience and elevate your brand online.</p>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+            <a href="#" class="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+        <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+      </div>
+    </div>
+  
+  
+  </div>
+  
+  <div class=" justify-center  mx-auto mb-5   bg-slate-00"> 
+    <div class="relative isolate overflow-hidden justify-center bg-gray-900 py-24 sm:py-32 ">
+      <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+      </div>
+      <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+      </div>
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl lg:mx-0">
+          <h2 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Work with us</h2>
+          <p class="mt-8 text-pretty text-lg font-medium text-gray-300 sm:text-xl/8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>
+        </div>
+        <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+          <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+            <a href="#">Open roles <span aria-hidden="true">&rarr;</span></a>
+            <a href="#">Internship program <span aria-hidden="true">&rarr;</span></a>
+            <a href="#">Our values <span aria-hidden="true">&rarr;</span></a>
+            <a href="#">Meet our leadership <span aria-hidden="true">&rarr;</span></a>
+          </div>
+          <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+            <div class="flex flex-col-reverse gap-1">
+              <dt class="text-base/7 text-gray-300">Offices worldwide</dt>
+              <dd class="text-4xl font-semibold tracking-tight text-white">12</dd>
+            </div>
+            <div class="flex flex-col-reverse gap-1">
+              <dt class="text-base/7 text-gray-300">Full-time colleagues</dt>
+              <dd class="text-4xl font-semibold tracking-tight text-white">300+</dd>
+            </div>
+            <div class="flex flex-col-reverse gap-1">
+              <dt class="text-base/7 text-gray-300">Hours per week</dt>
+              <dd class="text-4xl font-semibold tracking-tight text-white">40</dd>
+            </div>
+            <div class="flex flex-col-reverse gap-1">
+              <dt class="text-base/7 text-gray-300">Paid time off</dt>
+              <dd class="text-4xl font-semibold tracking-tight text-white">Unlimited</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="flex justify-center items-center bg-gray-00 mx-auto h-[570px]">
+    <div class="grid justify-center  w-[1200px] h-[600px] bg-slate 000 ">
+      <div class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:w-[800px] w-[350px] lg:px-8">
+        <div class="mx-auto max-w-2xl lg:max-w-4xl">
+          <img class="mx-auto h-12" src="img/auditrix.svg" alt="">
+          <figure class="mt-10">
+            <blockquote class="text-center text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
+              <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”</p>
+            </blockquote>
+            <figcaption class="mt-10">
+              <img class="mx-auto size-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+              <div class="mt-4 flex items-center justify-center space-x-3 text-base">
+                <div class="font-semibold text-gray-900">Judith Black</div>
+                <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="fill-gray-900">
+                  <circle cx="1" cy="1" r="1" />
+                </svg>
+                <div class="text-gray-600">CEO of Workcation</div>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
 
+    </div>
 
-    <script>
-        const navLinks = document.querySelector('.nav-links');
-        function onToggleMenu(e) {
-            e.name = e.name === 'close' ? 'menu' : 'close';
-            navLinks.classList.toggle('top-[7%]');
-        }
-    </script>
-
+  </div>
+  
     
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+  <div class= " bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl lg:mx-0">
+        <h2 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">From the blog</h2>
+        <p class="mt-2 text-lg/8 text-gray-600">Learn how to grow your business with our expert advice.</p>
+      </div>
+      <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <article class="flex max-w-xl flex-col items-start justify-between">
+          <div class="flex items-center gap-x-4 text-xs">
+            <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
+            <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Marketing</a>
+          </div>
+          <div class="group relative">
+            <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+              <a href="#">
+                <span class="absolute inset-0"></span>
+                Boost your conversion rate
+              </a>
+            </h3>
+            <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+          </div>
+          <div class="relative mt-8 flex items-center gap-x-4">
+            <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50">
+            <div class="text-sm/6">
+              <p class="font-semibold text-gray-900">
+                <a href="#">
+                  <span class="absolute inset-0"></span>
+                  Michael Foster
+                </a>
+              </p>
+              <p class="text-gray-600">Co-Founder / CTO</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="flex max-w-xl flex-col items-start justify-between">
+          <div class="flex items-center gap-x-4 text-xs">
+            <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
+            <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Marketing</a>
+          </div>
+          <div class="group relative">
+            <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+              <a href="#">
+                <span class="absolute inset-0"></span>
+                Boost your conversion rate
+              </a>
+            </h3>
+            <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+          </div>
+          <div class="relative mt-8 flex items-center gap-x-4">
+            <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50">
+            <div class="text-sm/6">
+              <p class="font-semibold text-gray-900">
+                <a href="#">
+                  <span class="absolute inset-0"></span>
+                  Michael Foster
+                </a>
+              </p>
+              <p class="text-gray-600">Co-Founder / CTO</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="flex max-w-xl flex-col items-start justify-between">
+          <div class="flex items-center gap-x-4 text-xs">
+            <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
+            <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Marketing</a>
+          </div>
+          <div class="group relative">
+            <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+              <a href="#">
+                <span class="absolute inset-0"></span>
+                Boost your conversion rate
+              </a>
+            </h3>
+            <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+          </div>
+          <div class="relative mt-8 flex items-center gap-x-4">
+            <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50">
+            <div class="text-sm/6">
+              <p class="font-semibold text-gray-900">
+                <a href="#">
+                  <span class="absolute inset-0"></span>
+                  Michael Foster
+                </a>
+              </p>
+              <p class="text-gray-600">Co-Founder / CTO</p>
+            </div>
+          </div>
+        </article>
+  
+        <!-- More posts... -->
+      </div>
+    </div>
+  </div>
+  
+  
+  </div>
+</main>
+
+  
+
+<footer>
+  <div class=" flex bg-black p-10 justify-center">
+      <div class="text-white font-sans">
+          <div class="grid md:grid-cols-4 gap-5 ">
+              <div class="mb-5 ml-10 lg:mt-20 mt-10 ">
+                  <img src="img/adiutrix white.svg" alt="logo" class="w-[150px] mb-9">
+                 
+                  <ul>
+                     <li  class="pb-2">
+                        
+                     </li>
+                     <li class="pb-2 ">
+                         <a href="about.html"  class=" hover:text-slate-500">East Legon hugh ave</a>
+                     </li>
+                     <li class="pb-2 hover:text-slate-500">
+                         <a href="contact"> audiutrixgh@gmail.com</a>
+                     </li>
+                     <li class="pb-2">
+                         <a href="img/tnm.pdf" download  class=" hover:text-slate-500"> +233 55 206 3000</a>
+                     </li>
+                  </ul>
+             </div>
+             <div class="mb-5 mr-20 ml-10 md:mt-20 mt-2 ">
+              <h4 class="pb-4 font-bold"> Navigation Links</h4>
+         
+              <ul>
+                 <li  class="pb-2">
+                     <a href="#"  class=" hover:text-slate-500"> Home </a>
+                 </li>
+                 <li class="pb-2 ">
+                     <a href="#"  class=" hover:text-slate-500">Our Work</a>
+                 </li>
+                 <li class="pb-2 hover:text-slate-500">
+                     <a href="#"> About</a>
+                 </li>
+                 <li class="pb-2">
+                     <a href="#"  class=" hover:text-slate-500"> Contact</a>
+                 </li>
+              </ul>
+         </div>
+
+         <div class="mb-5 ml-10 md:mt-20 mt-2">
+          <h4 class="pb-4 font-bold"> Services</h4>
+         
+          <ul>
+             <li  class="pb-2">
+                 <a href="https://html.com/html5/"  class=" hover:text-slate-500">Visual Design</a>
+             </li>
+             <li class="pb-2 ">
+                 <a href="https://css3.com/"  class=" hover:text-slate-500"> Digital Marketing</a>
+             </li>
+             <li class="pb-2 hover:text-slate-500">
+                 <a href="https://tailwindcss.com/">Cinematography</a>
+             </li>
+             <li class="pb-2">
+                 <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"  class=" 
+hover:text-slate-500">Web Development</a>
+             </li>
+          </ul>
+     </div>
+
+
+     <div class="mb-5 ml-10 md:mt-20 mt-2">
+      <h4 class="pb-4 font-bold"> Useful Links</h4>
+     
+      <ul>
+         <li  class="pb-2">
+             <a href="https://html.com/html5/"  class=" hover:text-slate-500"> Blogs</a>
+         </li>
+         <li class="pb-2 ">
+             <a href="https://css3.com/"  class=" hover:text-slate-500"> Policy</a>
+         </li>
+         <li class="pb-2 hover:text-slate-500">
+             <a href="https://tailwindcss.com/">Terms and 
+              Conditions
+             </a>
+         </li>
+        
+      </ul>
+ </div>
+
+          </div>
+      </div>
+  </div>
+</footer>
+
+<div class=" flex justify-center bg-slate-950 text-xs text-slate-50 font-medium">
+  <h4> Adiutrix &nbsp; All rights reserved &nbsp; Copyright 2024</h4>
+</div>
+
+
+
+
+
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuButton = document.getElementById("menu-toggle");
+    const menu = document.getElementById("menu");
+    const menuIconOpen = document.getElementById("menu-icon-open");
+    const menuIconClose = document.getElementById("menu-icon-close");
+
+    // Toggle the menu visibility on mobile
+    menuButton.addEventListener("click", function () {
+      menu.classList.toggle("opacity-0");
+      menu.classList.toggle("-translate-x-full");
+      menu.classList.toggle("translate-x-0");
+      menu.classList.toggle("opacity-100");
+      menuIconOpen.classList.toggle("hidden");
+      menuIconClose.classList.toggle("hidden");
+    });
+  });
+</script>
 
 </body>
 </html>
