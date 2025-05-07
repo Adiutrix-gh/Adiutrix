@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" class="!scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adiutrix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="bg-white">
+  <header class="absolute inset-x-0 top-0 z-50">
+    <nav x-data="{ isOpen: false }" class="bg-slate-50 bg-opacity-30 shadow-sm dark:bg-gray-00">
+        <div class="container px-6 py-4 mx-auto">
+            <div class="lg:flex lg:items-center">
+                <div class="flex items-center justify-between">
+                    <a href="#">
+                        <img class="w-auto h-6 sm:h-7" src="img/auditrix.svg" alt="">
+                    </a>
+
+                    <!-- Mobile menu button -->
+                    <div class="flex lg:hidden">
+                        <button id="menu-toggle" type="button" class="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400" aria-label="toggle menu">
+                            <svg id="menu-icon-open" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+                            </svg>
+                            <svg id="menu-icon-close" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="menu" class="absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-00 lg:mt-0 mt-4 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-end opacity-0 -translate-x-full">
+                    <div class="flex flex-col text-gray-600 capitalize dark:text-gray-600 lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
+                        <a href="index.html" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-800">Home</a>
+                        <a href="about.html" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-800">About</a>
+                        <a href="services.html" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-800 font-semibold text-blue-700">Services</a>
+                        <a href="contact.html" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-800">Contact</a>
+                        <a href="book.html" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-slate-50 dark:hover:text-slate-50"> <button class=" bg-blue-800 w-20 h-10 text-white font-medium rounded"> Book </button> </a>
+
+                        
+                </div>
+            </div>
+        </div>
+    </nav>
+  </header>
+
+  <main class=" lg:mx-[full] lg:mt-0 mt-8 "> 
+   
+    <div class="relative isolate px-6 pt-6 lg:px-8">
+      <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+        <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.
+  
+  
+  5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+      <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+        <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+      </div>
+    </div>
+  
+  
+  </div>
+
+  <div class="flex justify-center bg-slate-50 text-slate-50 w-10 h-[9.5px]">
+    blank
+  </div>
+
+
+  <div class="flex justify-center mx-auto w-full py-30 sm:py-52 lg:py-9 mt-0  mb-5 top-0 bg-slate-0 bg-contain overflow-hidden ">
+
+    <div class=" flex justify-center items-center mx-auto lg:w-full lg:h-[200px] w-[350px] h-[500px] lg:mt-0 mt-10 lg:m-0 m-5 bg-slate-00 overflow-hidden lg:rounded-none rounded-md ">
+      <img class="justify-center object-cover lg:w-[100%] lg:h-[100%] w-[350px] h-[500px]" src="img/sevices (2).jpg" alt="" >
+    </div>
+    
+    <p class="flex justify-center lg:text-4xl text-2xl text-white font-bold absolute lg:top-40 top-[550px]  left-24"> OUR SERVICES</p>
+
+  </div>  
+  
+  <div class=" flex justify-center items-center mx-auto bg-slate-00 lg:w-full lg:h-[500px] h-[700px] lg:mt-14  lg:mb-0 mb-10">
+    <div class=" justify-center mx-auto grid lg:grid-cols-2 lg:m-0 m-4 bg-slate-50 rounded-md lg:w-[800px] lg:h-[400px] w-[350px] shadow-md " >
+      <div class=" justify-self-center bg-emerald-00   ">
+        <div class="flex items-center m-4 mt-16 bg-white h-[270px] w-[300px] rounded overflow-hidden">
+          <img class="scale-150" src="img/web.jpg" alt="web development">
+        </div>
+      </div>
+       
+      <div class=" items-center bg-yellow-00 m-4 lg:mt-8 mt-0 ">
+        <p class=" bg-slate-00  mb-6 mt-8 font-semibold text-2xl ">WEB DEVELOPMENT</p>
+        <p class="bg-slate-00 pr-4 ">At Adiutrix, we build high-performance, user-friendly, and responsive websites tailored to your business needs. Our expert developers create seamless digital experiences, ensuring functionality, speed, and modern design that enhances your online presence. From corporate websites to e-commerce platforms, we bring your vision to life with cutting-edge technology.
+
+
+
+
+
+
+
+
+        </p>
+        
+      </div>      
+    </div>
+
+  </div>
+
+  <div class=" flex justify-center items-center mx-auto bg-slate-00 lg:w-full lg:h-[500px] h-[700px] mt-2   lg:mb-0 mb-10">
+    <div class=" justify-center mx-auto grid lg:grid-cols-2 lg:m-0 m-4 bg-slate-50 rounded-md lg:w-[800px] lg:h-[400px] w-[350px] shadow-md " >
+      <div class=" justify-self-center bg-emerald-00   ">
+        <div class="flex items-center m-4 mt-16 bg-white h-[270px] w-[300px] rounded overflow-hidden">
+          <img class="scale-150" src="img/graphic design.jpg" alt="graphic design">
+        </div>
+      </div>
+       
+      <div class=" items-center bg-yellow-00 m-4 lg:mt-8 mt-0 ">
+        <p class=" bg-slate-00  mb-6 mt-8 font-semibold text-2xl ">GRAPHIC DESIGN</p>
+        <p class="bg-slate-00 pr-4 ">Adiutrix delivers visually stunning and impactful designs that elevate your brand identity. From logos and branding to marketing materials and digital graphics, our creative team ensures your visuals communicate effectively and leave a lasting impression. Let’s bring your ideas to life with compelling design solutions. 
+        </p>
+        
+      </div>      
+    </div>
+
+  </div>
+
+    
+
+  
+
+
+  <div class=" flex justify-center items-center mx-auto bg-slate-00 lg:w-full lg:h-[500px] h-[700px] mt-2 lg:mb-0 mb-10">
+    <div class=" justify-center mx-auto grid lg:grid-cols-2 lg:m-0 m-4 bg-slate-50 rounded-md lg:w-[800px] lg:h-[400px] w-[350px] shadow-md " >
+      <div class=" justify-self-center bg-emerald-00   ">
+        <div class="flex items-center m-4 mt-16 bg-white h-[270px] w-[300px] rounded overflow-hidden">
+          <img class="scale-150" src="img/ui.jpg" alt="ux/ui design">
+        </div>
+      </div>
+       
+      <div class=" items-center bg-yellow-00 m-4 lg:mt-8 mt-0 ">
+        <p class=" bg-slate-00  mb-6 mt-8 font-semibold text-2xl ">UX/UI DESIGN</p>
+        <p class="bg-slate-00 pr-4 ">Adiutrix creates intuitive, visually appealing, and user-centric designs that enhance digital experiences. Our UI/UX experts craft seamless interfaces that improve engagement, usability, and brand identity. Whether for websites, mobile apps, or digital platforms, we ensure designs that are both functional and aesthetically compelling.
+        </p>
+        
+      </div>      
+    </div>
+    
+
+  </div>
+
+
+  <div class=" flex justify-center items-center mx-auto bg-slate-00 lg:w-full lg:h-[500px] h-[700px] mt-2  lg:mb-0 mb-10">
+    <div class=" justify-center mx-auto grid lg:grid-cols-2 lg:m-0 m-4 bg-slate-50 rounded-md lg:w-[800px] lg:h-[400px] w-[350px] shadow-md" >
+      <div class=" justify-self-center bg-emerald-00   ">
+        <div class="items-center m-4 mt-16 bg-white h-[270px] w-[300px] rounded overflow-hidden">
+          <img src="img/digital marketing.jpg" alt="digital marketing">
+        </div>
+      </div>
+       
+      <div class=" items-center bg-yellow-00 m-4 lg:mt-8 mt-0 ">
+        <p class=" bg-slate-00  mb-6 mt-8 font-semibold text-2xl ">DIGITAL MARKETING</p>
+        <p class="bg-slate-00 pr-4 ">Adiutrix helps businesses grow, engage, and convert with strategic digital marketing solutions. From SEO and content marketing to social media, email campaigns, and paid ads, we craft data-driven strategies that boost brand visibility, drive traffic, and maximize ROI. Let’s take your brand to the next level!
+        </p>
+        
+      </div>      
+    </div>
+
+    
+
+  </div>
+
+
+  <div class=" flex justify-center items-center mx-auto bg-slate-00 lg:w-full lg:h-[500px] h-[700px] mt-2  lg:mb-0 mb-10">
+    <div class=" justify-center mx-auto grid lg:grid-cols-2 lg:m-0 m-4 bg-slate-50 rounded-md lg:w-[800px] lg:h-[400px] w-[350px] shadow-md " >
+      <div class=" justify-self-center bg-emerald-00   ">
+        <div class="items-center m-4 mt-16 bg-white h-[270px] w-[300px] rounded overflow-hidden">
+          <img src="img/social media marketing.jpg" alt="social media marketing">
+        </div>
+      </div>
+       
+      <div class=" items-center bg-yellow-00 m-4 lg:mt-8 mt-0 ">
+        <p class=" bg-slate-00  mb-6 mt-8 font-semibold text-2xl ">SOCIAL MEDIA MANAGEMENT</p>
+        <p class="bg-slate-00 pr-4 ">Adiutrix helps businesses build, grow, and engage their audience across social media platforms. We create strategic content, manage accounts, and optimize engagement to enhance brand presence and drive meaningful interactions. Let us handle your social media while you focus on your business!
+
+
+
+
+
+
+
+
+        </p>
+        
+      </div>      
+    </div>
+
+    
+
+  </div>
+
+
+  <div class=" flex justify-center items-center mx-auto bg-slate-00 lg:w-full lg:h-[500px] h-[700px] mt-2 lg:mb-0 mb-28 ">
+    <div class=" justify-center mx-auto grid lg:grid-cols-2 lg:m-0 m-4 bg-slate-50 rounded-md lg:w-[800px] lg:h-[400px] w-[350px] shadow-md " >
+      <div class=" justify-self-center bg-emerald-00   ">
+        <div class="items-center m-4 mt-16 bg-white h-[270px] w-[300px] rounded overflow-hidden">
+          <img src="img/bulk sms.jpg" alt="bulk sms">
+        </div>
+      </div>
+       
+      <div class=" items-center bg-yellow-00 m-4 lg:mt-8 mt-0 ">
+        <p class=" bg-slate-00  mb-6 mt-8 font-semibold text-2xl ">BULK MESSAGING</p>
+        <p class="bg-slate-00 pr-4 ">Adiutrix provides fast, reliable, and cost-effective Bulk SMS solutions to help businesses reach their audience instantly. Whether for promotions, alerts, or customer engagement, our messaging platform ensures high deliverability and seamless communication at scale. Connect with your audience effortlessly!
+        </p>
+        
+      </div>      
+    </div>
+    
+
+  </div>
+
+
+
+
+  <!--<div class="relative isolate px-6 pt-6 lg:px-8">
+    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+      <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.
+
+
+5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+      <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+  </div>
+
+
+</div> -->
+ 
+
+<div class="flex justify-center items-center bg-slate-00 h-[200px]  lg:mt-32 mt-14">
+    <div class=" bg-slate-00 w-[450px]">
+        
+        <h3 class="flex justify-center md:text-3xl text-xl font-bold">Join Our Mail List</h3>
+        <h1 class="flex justify-center font-medium text-base text-gray-700 md:mt-2 mt-0">Enjoy  updates, tips and discounted  offers</h1>
+        
+        <form method="post" action="https://sheetdb.io/api/v1/05g4h1yreg511" id="sheetdb-form">
+  <div class="flex justify-center items-center mx-auto bg-white border-2 border-gray-200 rounded mt-7 md:mb-36 mb-24 w-[300px] h-[40px] md:w-[400px] md:h-[50px]">
+    
+    <input 
+      type="email" name="data[your-email]" placeholder="Enter your mail" class="pl-3 bg-white font-semibold m-1 h-[30px] w-[180px] md:h-[40px] md:w-[250px] text-sm rounded focus:outline-none" required >
+
+      <!-- Hidden timestamp field -->
+            <input type="hidden" name="data[timestamp]" id="timestamp">
+
+    <button 
+      type="submit" class="bg-black text-white font-medium m-1 h-[30px] w-[100px] md:h-[40px] md:w-[120px] rounded hover:bg-opacity-80 transition ease-in-out duration-300"> Join </button>
+  </div>
+</form>
+
+    </div>    
+</div>
+
+
+</main>
+
+  
+
+<footer>
+  <div class=" flex bg-black p-10 justify-center">
+      <div class="text-white font-sans">
+          <div class="grid md:grid-cols-4 gap-5 ">
+              <div class="mb-5 ml-10 lg:mt-20 mt-10 ">
+                  <img src="img/adiutrix white.svg" alt="logo" class="w-[150px] mb-9">
+                 
+                  <ul>
+                     <li  class="pb-2">
+                        
+                     </li>
+                     <li class="pb-2 ">
+                         <a href="about.html"  class=" hover:text-slate-500">East Legon hugh ave</a>
+                     </li>
+                     <li class="pb-2 hover:text-slate-500">
+                         <a href="contact"> audiutrixgh@gmail.com</a>
+                     </li>
+                     <li class="pb-2">
+                         <a href="img/tnm.pdf" download  class=" hover:text-slate-500"> +233 55 206 3000</a>
+                     </li>
+                  </ul>
+             </div>
+             <div class="mb-5 mr-20 ml-10 md:mt-20 mt-2 ">
+              <h4 class="pb-4 font-bold"> Navigation Links</h4>
+         
+              <ul>
+                <li  class="pb-2">
+                  <a href="index.html"  class=" hover:text-slate-500"> Home </a>
+              </li>
+              <li class="pb-2 ">
+                  <a href="about.html"  class=" hover:text-slate-500">About</a>
+              </li>
+              <li class="pb-2 hover:text-slate-500">
+                  <a href="services.html"> Services</a>
+              </li>
+              <li class="pb-2">
+                  <a href="contact.html"  class=" hover:text-slate-500"> Contact</a>
+              </li>
+         </div>
+
+         <div class="mb-5 ml-10 md:mt-20 mt-2">
+          <h4 class="pb-4 font-bold"> Services</h4>
+         
+          <ul>
+             <li  class="pb-2">
+                 <a href="https://html.com/html5/"  class=" hover:text-slate-500">Graphic Design</a>
+             </li>
+             <li class="pb-2 ">
+                 <a href="https://css3.com/"  class=" hover:text-slate-500"> Digital Marketing</a>
+             </li>
+             <li class="pb-2 hover:text-slate-500">
+                 <a href="https://tailwindcss.com/"> Web Development</a>
+             </li>
+             <li class="pb-2">
+                 <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"  class=" 
+hover:text-slate-500">Social Media Management </a>
+             </li>
+          </ul>
+     </div>
+
+
+     <div class="mb-5 ml-10 md:mt-20 mt-2">
+      <h4 class="pb-4 font-bold"> Useful Links</h4>
+     
+      <ul>
+         <li  class="pb-2">
+             <a href="book.html"  class=" hover:text-slate-500"> Book</a>
+         </li>
+         <li class="pb-2 ">
+             <a href="https://css3.com/"  class=" hover:text-slate-500"> Policy</a>
+         </li>
+         <li class="pb-2 hover:text-slate-500">
+             <a href="https://tailwindcss.com/">Terms and 
+              Conditions
+             </a>
+         </li>
+        
+      </ul>
+ </div>
+
+          </div>
+      </div>
+  </div>
+</footer>
+
+<div class=" flex justify-center bg-slate-950 text-xs text-slate-50 font-medium">
+  <h4> Adiutrix &nbsp; All rights reserved &nbsp; Copyright 2024</h4>
+</div>
+
+
+
+<!--script for timestamp-->
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const timestampField = document.getElementById("timestamp");
+    const now = new Date();
+    timestampField.value = now.toISOString(); // Format: 2025-05-05T12:34:56.789Z
+  });
+</script>
+
+<!--script for connecting form-->
+
+<script>
+    var form = document.getElementById('sheetdb-form');
+form.addEventListener("submit", e => {
+  e.preventDefault();
+  fetch(form.action, {
+      method : "POST",
+      body: new FormData(document.getElementById("sheetdb-form")),
+  }).then(
+      response => response.json()
+  ).then((html) => {
+    // you can put any JS code here
+    window.open('submitservice.html', '_blank');
+
+  });
+});
+</script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuButton = document.getElementById("menu-toggle");
+    const menu = document.getElementById("menu");
+    const menuIconOpen = document.getElementById("menu-icon-open");
+    const menuIconClose = document.getElementById("menu-icon-close");
+
+    // Toggle the menu visibility on mobile
+    menuButton.addEventListener("click", function () {
+      menu.classList.toggle("opacity-0");
+      menu.classList.toggle("-translate-x-full");
+      menu.classList.toggle("translate-x-0");
+      menu.classList.toggle("opacity-100");
+      menuIconOpen.classList.toggle("hidden");
+      menuIconClose.classList.toggle("hidden");
+    });
+  });
+</script>
+
+</body>
+</html>

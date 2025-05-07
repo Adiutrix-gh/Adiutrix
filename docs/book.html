@@ -35,8 +35,8 @@
                         <a href="index.html" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-800">Home</a>
                         <a href="about.html" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-800">About</a>
                         <a href="services.html" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-800">Services</a>
-                        <a href="contact.html" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-800 font-semibold text-blue-700">Contact</a>
-                        <a href="book.html" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-slate-50 dark:hover:text-slate-50"> <button class=" bg-blue-800 w-20 h-10 text-white font-medium rounded"> Book </button> </a>
+                        <a href="contact.html" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-800">Contact</a>
+                        <a href="book.html" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-slate-50 dark:hover:text-slate-50"> <button class=" bg-green-700 w-20 h-10 text-white font-medium rounded"> Book </button> </a>
 
                        
                 </div>
@@ -48,32 +48,37 @@
   <main class=" lg:mx-[full]  "> 
    
     
-  <div class=" flex justify-center items-center mx-auto bg-slate-00 lg:w-[1200px] lg:h-[700px] h-[1000px] lg:mt-28 mt-2 mb-10  ">
-    <div class=" justify-center  mx-auto grid lg:grid-cols-2 bg-slate-50 rounded-md lg:w-[1100px] lg:h-[550px] h-[800px]  ml-10 mr-10 overflow-hidden shadow " >
+    
+  <div class=" flex justify-center items-center mx-auto bg-slate-00 lg:w-[1200px] lg:h-[700px] h-[1000px] lg:mt-28 lg:mb-28 mt-0 mb-0  ">
+    <div class=" justify-center  mx-auto grid lg:grid-cols-2 bg-slate-50 rounded-md lg:w-[1100px] lg:h-[600px] h-[650px]  ml-10 mr-10 overflow-hidden shadow-sm " >
+        
       <div class=" flex justify-self-center items-center mx-auto bg-emerald-00 mt-10 w-[400px] ">
-        <form method="post" action="https://sheetdb.io/api/v1/05g4h1yreg511" id="sheetdb-form" name="contact-form" class=" justify-center mx-auto" >
+        <form method="post" action="https://sheetdb.io/api/v1/vtg08pcoc9svn" id="sheetdb-form" class=" justify-center mx-auto" >
             <label for="name" class="font-medium text-sm ">Name</label> <br>
-            <input type="text" name="data[your-name]" id="your-name" placeholder=" eg.Benjamin Brown" class="pl-3 w-[280px] h-[40px] rounded bg-slate-100 bg-opacity-60 placeholder:font-medium placeholder:text-sm mb-2 mt-2 shadow"> <br>
+            <input type="text" name="data[booker-name]" id="booker-name" placeholder=" eg. Packman LTD" class="pl-3 w-[280px] h-[40px] rounded bg-slate-100 bg-opacity-60 placeholder:font-medium placeholder:text-sm mb-2 mt-2 shadow"> <br>
 
-            <label for="email" class="font-medium text-sm ">Email</label> <br>
-            <input type="email" name="data[your-email]" id="your-email"  placeholder=" eg.example@gmail.com" class="pl-3 w-[280px] h-[40px] rounded bg-slate-100 bg-opacity-60 placeholder:font-medium placeholder:text-sm mb-2 mt-2 shadow"><br>
+            <label for="email" class="font-medium text-sm ">Email/Phone</label> <br>
+            <input type="text" name="data[booker-details]" id="booker-details" placeholder=" eg. example@gmail.com or 0500000000" class="pl-3 w-[280px] h-[40px] rounded bg-slate-100 bg-opacity-60 placeholder:font-medium placeholder:text-sm mb-2 mt-2 shadow"><br>
 
-            <label for="message" class="font-medium text-sm ">Message</label> <br>
-            <textarea type="text" name="data[your-message]" id="your-message" placeholder=" Type a message" class="pl-3 pt-2 w-[280px] h-[150px] rounded bg-slate-100 bg-opacity-60 placeholder:font-medium placeholder:text-sm mb-8 mt-2 shadow"></textarea>
+            <label for="email" class="font-medium text-sm ">Service Type </label> <br>
+            <input type="text" name="data[booked-service]" id="booked-service" placeholder=" eg. Flyer, Banner, UI etc." class="pl-3 w-[280px] h-[40px] rounded bg-slate-100 bg-opacity-60 placeholder:font-medium placeholder:text-sm mb-2 mt-2 shadow"><br>
+
+            <label for="message" class="font-medium text-sm ">Description</label> <br>
+            <textarea type="text" name="data[booker-message]" id="booker-message" placeholder=" Kindly describe what you want." class=" pl-3 pt-2 w-[280px] h-[150px] rounded bg-slate-100 bg-opacity-60 placeholder:font-medium placeholder:text-sm mb-8 mt-2 shadow"></textarea>
             
             <!-- Hidden timestamp field -->
             <input type="hidden" name="data[timestamp]" id="timestamp">
 
-            <div class="flex justify-center items-center bg-blue-700 cursor-pointer  w-[280px] h-[40px] rounded hover:bg-blue-500 shadow">
-            <input type="submit" value="Send" class="bg-green-00 cursor-pointer  w-[250px] h-[40px] overflow-hidden text-slate-50 text-base font-semibold  ">
+            <div class="flex justify-center items-center  bg-green-700 cursor-pointer  w-[280px] h-[40px] rounded hover:bg-green-500 shadow">
+            <input type="submit" value="Send" class="bg-green-00 cursor-pointer  w-[250px] h-[40px] overflow-hidden text-slate-50 text-base font-semibold ">
             </div>
         </form>  
 
 
       </div>
        
-      <div class=" flex justify-center items-center rounded lg:mt-0 mt-14 m-10 bg-yellow-00 overflow-hidden ">
-        <iframe class="rounded-md" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63540.339909452174!2d-0.4780014879292292!3d5.526716379998085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdfbaedda8d54f7%3A0xd48e16c6c340829a!2sKasoa!5e0!3m2!1sen!2sgh!4v1738614804931!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class=" lg:flex justify-center items-center rounded lg:mt-0 mt-14 m-10 bg-yellow-00 overflow-hidden hidden ">
+        <img class=" rounded" src="img/book.jpg" alt="book appointment">
       </div>
 
     </div>
@@ -83,23 +88,19 @@
   </div>
 
 
-  <div class="flex justify-center lg:text-2xl text-xl font-semibold mb-10"> Follow Us</div>
-
   
-  <div class="flex mx-auto justify-center items-center gap-x-10 bg-slate-0 lg:w-[500px] lg:h-[70px] rounded-full  mb-28  ">
-    <div class="bg-blue-00 w-11 h-11 hover:w-10 transition ease-linear 300s">
-       <a href="https://wa.me/233552063000"><img class="w-11" src="img/whatsapp.png" alt=""></a> 
-    </div>
-
-    <div class="bg-blue-00 w-11 h-11 hover:w-10 transition ease-linear 300s">
-        <a href=""><img class="w-11" src="img/twitter.png" alt=""></a> 
-    </div>
+ <!-- <div class="flex mx-auto justify-center items-center  bg-slate-800 lg:w-[500px] lg:h-[70px] rounded-full  mb-28  ">
     
-    <div class="bg-blue-00 w-11 h-11 hover:w-10 transition ease-linear 300s">
-        <a href=""><img class="w-11" src="img/instagram (1).png" alt=""></a> 
+
+    <div class=" flex justify-center items-center  bg-green-700 hover:bg-green-900 delay 300s ease-in-out w-[280px] h-[40px] gap-x-2 rounded">
+                 <h2 class=" font-semibold text-l text-slate-50"> <a href="#">Send Direct Message</a> </h2>
+
+         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#fff" d="M3 20v-6l8-2l-8-2V4l19 8z" stroke-width="0.5" stroke="#fff"/></svg>
+
     </div>
+   
      
-  </div>
+  </div> -->
 
   </div>
 
@@ -165,6 +166,7 @@
          <div class="mb-5 ml-10 md:mt-20 mt-2">
           <h4 class="pb-4 font-bold"> Services</h4>
          
+          
           <ul>
             <li  class="pb-2">
                 <a href="https://html.com/html5/"  class=" hover:text-slate-500">Graphic Design</a>
@@ -221,7 +223,7 @@ hover:text-slate-500">Social Media Management </a>
   });
 </script>
 
-<!--script for connecting form-->
+<!--script for connecting forms-->
 
 <script>
     var form = document.getElementById('sheetdb-form');
@@ -234,14 +236,11 @@ form.addEventListener("submit", e => {
       response => response.json()
   ).then((html) => {
     // you can put any JS code here
-    window.open('submitcontact.html', '_blank');
+    window.open('submitbook.html', '_blank');
 
   });
 });
 </script>
-
-
-
 
 <!--script for menu-->
 
