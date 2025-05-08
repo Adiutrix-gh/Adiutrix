@@ -810,6 +810,18 @@ video {
   margin-top: 2rem;
 }
 
+.ml-20{
+  margin-left: 5rem;
+}
+
+.ml-12{
+  margin-left: 3rem;
+}
+
+.ml-5{
+  margin-left: 1.25rem;
+}
+
 .line-clamp-3{
   overflow: hidden;
   display: -webkit-box;
@@ -980,6 +992,10 @@ video {
 
 .h-\[960px\]{
   height: 960px;
+}
+
+.h-\[850px\]{
+  height: 850px;
 }
 
 .min-h-screen{
