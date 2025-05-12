@@ -806,6 +806,10 @@ video {
   margin-top: 2rem;
 }
 
+.mb-7{
+  margin-bottom: 1.75rem;
+}
+
 .line-clamp-3{
   overflow: hidden;
   display: -webkit-box;
@@ -951,6 +955,14 @@ video {
 
 .h-\[9\.5px\]{
   height: 9.5px;
+}
+
+.h-\[450px\]{
+  height: 450px;
+}
+
+.h-\[680px\]{
+  height: 680px;
 }
 
 .min-h-screen{
