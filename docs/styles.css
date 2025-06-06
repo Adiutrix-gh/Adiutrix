@@ -734,6 +734,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-7{
+  margin-bottom: 1.75rem;
+}
+
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -804,10 +808,6 @@ video {
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mb-7{
-  margin-bottom: 1.75rem;
 }
 
 .line-clamp-3{
@@ -933,12 +933,12 @@ video {
   height: 600px;
 }
 
-.h-\[700px\]{
-  height: 700px;
+.h-\[680px\]{
+  height: 680px;
 }
 
-.h-\[730px\]{
-  height: 730px;
+.h-\[700px\]{
+  height: 700px;
 }
 
 .h-\[800px\]{
@@ -957,12 +957,8 @@ video {
   height: 9.5px;
 }
 
-.h-\[450px\]{
-  height: 450px;
-}
-
-.h-\[680px\]{
-  height: 680px;
+.h-full{
+  height: 100%;
 }
 
 .min-h-screen{
@@ -1194,6 +1190,10 @@ video {
 
 .gap-10{
   gap: 2.5rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
 }
 
 .gap-5{
