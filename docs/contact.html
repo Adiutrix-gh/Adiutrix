@@ -203,8 +203,14 @@
 </footer>
 
 <div class=" flex justify-center bg-slate-950 text-xs text-slate-50 font-medium">
-  <h4> Adiutrix &nbsp; All rights reserved &nbsp; Copyright 2025</h4>
+  <h4> Adiutrix &nbsp; &copy; <span id="year"></h4>
 </div>
+
+<!--script for copyright date update-->
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 
 <!--script for scroll-->
